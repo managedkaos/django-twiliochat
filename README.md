@@ -11,6 +11,7 @@ To get to minimum viable product:
     - API SID
     - API Key
 2. Install the Python libraries with `pip install -r requirements.txt`.
+3. Squash migration errors by running `honcho run ./manage.py migrate`.
 3. Start the application with `honcho run ./manage.py runserver`.
 4. Open a browser and surf to http://127.0.0.1:8000
 

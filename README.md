@@ -3,6 +3,7 @@ A Django based chat app powered by Twilio.
 
 To get to minimum viable product:
 
+0. Clone the repo.
 1. Copy env.txt to .env and populate it with Twilio API values for:
     - Twilio Account SID
     - Chat SID
